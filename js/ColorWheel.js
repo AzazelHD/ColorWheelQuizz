@@ -67,16 +67,14 @@ export class ColorWheel {
     let pointerX = this.x + radius * cos(r_angle);
     let pointerY = this.y + radius * sin(r_angle);
 
-    // loop through selectors
     for (let s of this.selectors) {
       s.update(pointerX, pointerY);
       s.display();
     }
 
-    // Return the color and the selector position
     return {
-      rgb: hsv_to_rgb(d_angle, 100, 100), // RGB as a list
-      hsv: [d_angle, 100, 100], // HSV as a list
+      rgb: hsv_to_rgb(d_angle, 100, 100),
+      hsv: [d_angle, 100, 100],
     };
   }
 
