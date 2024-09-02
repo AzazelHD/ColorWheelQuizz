@@ -1,0 +1,17 @@
+{
+  "name": "color_quizz",
+  "version": "1.0.0",
+  "main": "script.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/p5": "^1.7.6",
+    "p5": "^1.10.0",
+    "pnpm": "^9.9.0"
+  }
+}
